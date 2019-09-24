@@ -1,0 +1,75 @@
+HttpUrlConnection (Java Class)
+- Bir web sayfasýnýn kaynaðýný görüntüleyebilmek için kullanýlýr.
+- - XML,JSON,TEXT,HTML vs. formatýndaki deðerleri indirebilir.
+- POST/GET iþlemleri yapýlabilir.
+
+
+AsyncTask Class
+- Bir görevi bir anda deðil de, parça parça çaðýrmak için kullanýlýr.
+- Örneðin: Bir resmi internetten indirirken, internetten dosya indirirken, bir dosya içeriðini okurken,
+bir web sayfasý kaynaðýný indirirken
+- Progress Dialog, Progressbar nesnelerini bu sýnýfta kullanabiliriz.
+
+- doInBackground
+- - iþlemin gerçekleþme zamanýný temsil eder. 
+- onPreExecute
+- - iþleme baþlamadan önce yapýlacak iþi temsil eder
+- onPostExecute
+- - iþlem tamamlandýðýnda gerçekleþecek iþi temsil eder.
+
+
+- Progress Dialog Usage
+
+
+
+Broadcast Receiver (Yayýn Alýcýlar)
+- Farklý bir uygulamadan gelen sinyalleri yakalayýp yorumlayabiliriz.
+- Ekranýn açýk olup olmadýðýný tespit etmek.
+- Þarj yüzdesini yakalayabilmek
+Content Provider (Ýçerik saðlayýcýlar)
+- Android'in Rehber Uygulamasý
+- - 
+- Whatsapp üzerindeki Kiþileri Görüntülemek
+- - 
+- Veritabaný yapýsýdýr, bir uygulama içerisindeki paylaþýma açýlmýþ olan veritabanýný okuyabilirsiniz.
+
+
+scheduleAtFixedRate
+- Timer Sýnýfý metodudur.
+- Bir iþi belirli periyotlarda sürekli tekrarlamak istediðimizde kullandýðýmýz bir metottur.
+- Her n milisaniyede bir iþi tekrar etmeniz gerektiði durumlarda kullanabilirsiniz.
+- https://serifgungor.com/blogs/196-android-timertask-kullanimi
+
+
+Alarm Manager
+- 
+
+runOnUIThread
+
+
+
+Notification
+Downloading Data with Background Service
+
+
+
+Job scheduler
+IntentService
+Report status from a JobIntentService
+Thread
+Timer,TimerTask
+Runnable
+Handler
+Location API
+
+Volley,Retrofit,OkHttp - WebService Libraries
+Picasso,Glide - Image Caching Libraries
+
+* Android Internal Storage, External Storage
+
+
+
+
+
+
+Ýnternetten Resmi indirip Ýnternal Storage'de saklama örneði (Image Caching)
